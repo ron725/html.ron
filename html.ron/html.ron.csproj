@@ -67,9 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="elephant.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
+    <Content Include="img\African Elephant Photo.jpg" />
+    <Content Include="img\Majestic Rhinoceros in the Wild.jpg" />
+    <Content Include="img\Roaring Lion.jpg" />
+    <Content Include="img\Vector_Up_Arrow_Icon__Arrow_Icons__Up_Icons__Arrow_Clipart_PNG_and_Vector_with_Transparent_Background_for_Free_Download-removebg-preview.png" />
     <Content Include="JavaScript.js" />
+    <Content Include="JavaScript1.js" />
+    <Content Include="lion.html" />
+    <Content Include="rhino.html" />
     <Content Include="second.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
