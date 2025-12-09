@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto; /* מרכז את הטבלה */
+            text-align: center;
+            direction: rtl;
+            width: 80%;
+            font-family: Arial;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* צבעים לפי מקצוע */
+        .math {
+            background-color: #ffd1d1;
+        }
+        /* מתמטיקה */
+        .english {
+            background-color: #d1e0ff;
+        }
+        /* אנגלית */
+        .history {
+            background-color: #fff2b3;
+        }
+        /* היסטוריה */
+        .cs {
+            background-color: #d6ffd1;
+        }
+        /* מחשבים */
+        .sport {
+            background-color: #ffe0f7;
+        }
+        /* ספורט */
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <!-- כותרת עם colspan -->
+        <tr>
+            <th colspan="6" style="font-size: 24px; padding: 15px;">
+                מערכת השעות שלי
+            </th>
+        </tr>
+
+        <!-- שורת כותרות הימים -->
+        <tr>
+            <th>שיעור</th>
+            <th>ראשון</th>
+            <th>שני</th>
+            <th>שלישי</th>
+            <th>רביעי</th>
+            <th>חמישי</th>
+        </tr>
+
+        <!-- שיעור 1 -->
+        <tr>
+            <td>1</td>
+            <td class="math">מתמטיקה</td>
+            <td rowspan="2" class="english">אנגלית (כפול)</td>
+            <td class="history">היסטוריה</td>
+            <td class="sport">ספורט</td>
+            <td class="cs">מחשבים</td>
+        </tr>
+
+        <!-- שיעור 2 -->
+        <tr>
+            <td>2</td>
+            <td class="math">מתמטיקה</td>
+            <td class="history">היסטוריה</td>
+            <td class="sport">ספורט</td>
+            <td class="cs">מחשבים</td>
+        </tr>
+
+        <!-- שיעור 3 -->
+        <tr>
+            <td>3</td>
+            <td rowspan="2" class="cs">מחשבים (כפול)</td>
+            <td class="math">מתמטיקה</td>
+            <td class="english">אנגלית</td>
+            <td class="sport">ספורט</td>
+            <td class="history">היסטוריה</td>
+        </tr>
+
+        <!-- שיעור 4 -->
+        <tr>
+            <td>4</td>
+            <td class="math">מתמטיקה</td>
+            <td class="english">אנגלית</td>
+            <td class="sport">ספורט</td>
+            <td class="history">היסטוריה</td>
+        </tr>
+    </table>
+
+</body>
+</html>
