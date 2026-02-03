@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input type="button" value="שלח" onclick="checkanswer();" />
+    <span>הקלידו מספר</span>
+    <input type="text" size="20" id="num" />
+
+    <table>
+        <tr>
+            <td><input type="text" size="20" id="num1" disabled /></td>
+            <td style="font-size:20px;">+</td>
+            <td><input type="text" size="10" id="num2" disabled /></td>
+            <td style="font-size:20px;">=</td>
+            <td><input type="text" size="10" id="answer1" /></td>
+            <td><span id="msgplus1"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="num3" disabled /></td>
+            <td style="font-size:20px;">-</td>
+            <td><input type="text" size="10" id="num4" disabled /></td>
+            <td style="font-size:20px;">=</td>
+            <td><input type="text" size="10" id="answer2" /></td>
+            <td><span id="msgplus2"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="num5" disabled /></td>
+            <td style="font-size:20px;">*</td>
+            <td><input type="text" size="10" id="num6" disabled /></td>
+            <td style="font-size:20px;">=</td>
+            <td><input type="text" size="10" id="answer3" /></td>
+            <td><span id="msgplus3"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="num7" disabled /></td>
+            <td style="font-size:20px;">/</td>
+            <td><input type="text" size="10" id="num8" disabled /></td>
+            <td style="font-size:20px;">=</td>
+            <td><input type="text" size="10" id="answer4" /></td>
+            <td><span id="msgplus4"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="num9" disabled /></td>
+            <td style="font-size:20px;">%</td>
+            <td><input type="text" size="10" id="num10" disabled /></td>
+            <td style="font-size:20px;">=</td>
+            <td><input type="text" size="10" id="answer5" /></td>
+            <td><span id="msgplus5"></span></td>
+        </tr>
+    </table>
+    <button onclick="check()">בדוק</button>
+    <button onclick="newnum()">הגרל מספרים חדשים</button>
+    <p id="message"></p>
+    
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
