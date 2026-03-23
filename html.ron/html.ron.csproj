@@ -82,6 +82,8 @@
     <Content Include="elephant.html" />
     <Content Include="ex22.html" />
     <Content Include="ex22.js" />
+    <Content Include="ex23.html" />
+    <Content Include="ex23.js" />
     <Content Include="exercise1.js" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
